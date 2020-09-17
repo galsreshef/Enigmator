@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Enigmator</string>
+    <string name="none" />
+    <string name="play_converted">Play converted</string>
+    <string name="copy_to_clipboard">Copy to clipboard</string>
+    <string name="your_morse_converter">Your Morse converter</string>
+</resources>

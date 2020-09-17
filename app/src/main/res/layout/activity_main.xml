@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground2"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <RadioGroup
+        android:id="@+id/rGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbToMorse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/radio_group_selector"
+            android:button="@drawable/t2m" />
+
+        <RadioButton
+            android:id="@+id/rbToText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/radio_group_selector"
+            android:button="@drawable/m2t" />
+
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="@string/none"
+        android:enabled="false"
+        android:inputType="text"
+        android:minEms="10"
+        android:autofillHints="@string/none" />
+
+    <TextView
+        android:id="@+id/tvConverted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/none"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:maxWidth="250dip"
+        android:singleLine="false"
+        android:text="@string/none"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_selector"
+        android:enabled="false"
+        android:minEms="10"
+        android:padding="10dp"
+        android:text="@string/play_converted" />
+
+    <Button
+        android:id="@+id/btnClipboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_selector"
+        android:enabled="false"
+        android:minEms="10"
+        android:padding="10dp"
+        android:text="@string/copy_to_clipboard" />
+</LinearLayout>
