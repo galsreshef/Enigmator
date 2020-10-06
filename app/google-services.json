@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "748997076138",
+    "firebase_url": "https://enigmator-morse-code.firebaseio.com",
+    "project_id": "enigmator-morse-code",
+    "storage_bucket": "enigmator-morse-code.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748997076138:android:bd9e8ab22b56fbffecdcd3",
+        "android_client_info": {
+          "package_name": "com.thegalos.enigmator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748997076138-v21g8os8a0brdtnieurhuh1op7k4b2o0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvD5kbUOONROofio0dLQfw6MMyWdocGsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748997076138-v21g8os8a0brdtnieurhuh1op7k4b2o0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

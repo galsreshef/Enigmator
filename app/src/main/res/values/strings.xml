@@ -4,4 +4,8 @@
     <string name="play_converted">Play converted</string>
     <string name="copy_to_clipboard">Copy to clipboard</string>
     <string name="your_morse_converter">Your Morse converter</string>
+
+    <string name="developer_logo">Developer Logo</string>
+    <string name="application_logo">Application Logo</string>
+
 </resources>
