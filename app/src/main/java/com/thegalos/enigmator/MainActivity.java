@@ -24,6 +24,9 @@ import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -57,6 +60,12 @@ public class MainActivity extends AppCompatActivity implements MediaPlayer.OnCom
         setContentView(R.layout.activity_main);
 
         // Ad Mob
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
+            }
+        });
+
         mInterstitialAd = new InterstitialAd(this);
         mInterstitialAd.setAdUnitId("ca-app-pub-6870681415333406/6197864268");
         mInterstitialAd.loadAd(new AdRequest.Builder().build());
@@ -67,8 +76,6 @@ public class MainActivity extends AppCompatActivity implements MediaPlayer.OnCom
             }
         });
 
-
-        // Ad Mob
         AdView mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
@@ -161,7 +168,7 @@ public class MainActivity extends AppCompatActivity implements MediaPlayer.OnCom
                     toTTS = toTTS+ " " + result;
                 }else btnPlay.setEnabled(false);
 
-                    tts.speak(toTTS , TextToSpeech.QUEUE_FLUSH, null, null);
+                tts.speak(toTTS , TextToSpeech.QUEUE_FLUSH, null, null);
 
                 playlist = new ArrayList<>();
                 if (toMorse == 1) {
