@@ -11,7 +11,7 @@ Convert you English text to Morse code and vice versa.
 - Play Morse code or text Using Google TTS engine.
 
 ### Getting Started
-- Download [APK](https://github.com/galsreshef/Enigmator/raw/master/app/release/app-release.apk) and Install Enigmator directly on your Android device.
+- Download [APK](https://github.com/galsreshef/Enigmator/raw/master/app/release/Enigmator_v1.1.apk) and Install Enigmator directly on your Android device.
 
 # App Screens
 <p align="center">
