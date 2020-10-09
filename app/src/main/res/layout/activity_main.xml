@@ -49,7 +49,7 @@
         android:hint="@string/none"
         android:inputType="text"
         android:minEms="10"
-        android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ !@#$%^*?"        ads:layout_constraintEnd_toEndOf="parent"
+        android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ !@#$%^*?,.-=+()/'"        ads:layout_constraintEnd_toEndOf="parent"
         ads:layout_constraintStart_toStartOf="parent"
         ads:layout_constraintTop_toBottomOf="@+id/rGroup" />
 
